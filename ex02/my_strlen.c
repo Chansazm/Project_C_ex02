@@ -13,6 +13,7 @@ int my_strlen (char *a)
 /*
 int main()
 {
+    //Zambia --> 6
     printf("Zambia has %d characters\n",my_strlen("Zambia"));
     //printf("My is negative : %d  \n", my_is_negative(4));
     return 0;
