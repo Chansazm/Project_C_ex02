@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-int my_strlen (char *a)
-{
-    
+int my_strlen (char *a){
     int len;
-    //loop until encounter the string terminator '\0'
-    for(len=0;a[len]!='\0';len++);
+    
+    for (len = 0 ; a[len] != '\0' ; len++)
+        ;
+
     return len;
-    return 0;
 }
 
 /*
