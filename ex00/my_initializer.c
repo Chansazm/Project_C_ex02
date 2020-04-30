@@ -1,15 +1,10 @@
 #include <stdio.h>
 
-void my_initializer(int* a) 
+void my_initializer(int* a)
 {
-   int p = 0;
-   //p = 0;
-   a = &p
+ *a = 0;
 }
+    
+    
 
-/*
-int main() 
-{
-    printf("my_initializer"('a'));
-}
-*/
+
