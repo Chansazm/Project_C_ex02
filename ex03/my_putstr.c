@@ -10,7 +10,7 @@ void my_putstr(char* a) {
     (a[index] != '\0')
     {
         write (1,&a[index],1);
-        index += 1;
+         index += 1;
     }
     
 
